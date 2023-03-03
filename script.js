@@ -32,6 +32,8 @@ class Admin {
     const book = new Books(newTitle, newAuthor, id);
     books.push(book);
     savedBooks();
+    newTitle = ' '
+    newAuthor = ' '
     return this;
   }
 
